@@ -1,0 +1,5 @@
+# package directories
+.next
+node_modules
+.idea/*
+.idea

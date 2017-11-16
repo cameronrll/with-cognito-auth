@@ -1,0 +1,27 @@
+{
+  "name": "with-apollo-cognito-auth",
+  "version": "1.0.0",
+  "description": "Example NextJS App with apollo and AWS Cognito for user authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "cameronrll <cameronrll@aol.com>",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.26.0",
+    "aws": "0.0.3-2",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.1.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-apollo": "^1.4.16",
+    "react-dom": "^16.1.1",
+    "subscriptions-transport-ws": "0.7.1"
+  }
+}
